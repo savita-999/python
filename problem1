@@ -1,0 +1,15 @@
+import datetime
+
+print("enter your name and age")
+a=input()
+b=int(input())
+
+
+age=95-b
+now=datetime.datetime.now()
+#print(now.year)
+
+
+print(now.year)
+
+print(age+now.year)
